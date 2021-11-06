@@ -41,7 +41,7 @@ The information storage capacity of a human
 500 trillion 
 The number of nerve synapses responsible for learning in the average adult human
 
-420 million 
+420 million
 The number of adults under 25 with insufficient education for finding employment 
 World Bank, 2017
 
@@ -58,7 +58,7 @@ Publication of Ivan Pavlov's research on classical conditioning
 
 Feynman block:
 
-The Feynman Technique 
+The Feynman Technique
 
 Learn without forgetting
 
@@ -87,7 +87,7 @@ by Josh Kaufman
 
 Footer block: 
 
-About Practicum by Yandex 
+About Practicum by Yandex
 
 Home page 
 
