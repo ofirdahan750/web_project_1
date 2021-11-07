@@ -36,7 +36,7 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 20;
-  margin: 0 0 0  64px;
+  margin: 0 0 0 64px;
 }
 .header__subtitle {
   position: absolute;
@@ -76,7 +76,6 @@
   top: 64px;
   z-index: -1;
 }
-
 
 /* Description section */
 
@@ -147,6 +146,7 @@
 .table {
   display: flex;
   flex-wrap: wrap;
+  gap: 60px 0;
   justify-content: space-between;
   margin: 0 auto;
   width: 1100px;
@@ -155,9 +155,7 @@
 }
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
 }
-
 
 .table__heading {
   line-height: 1.15;
@@ -195,7 +193,6 @@
   font-size: 36px;
   font-weight: normal;
   margin: 0;
-
 }
 .feynman__link {
   position: absolute;
@@ -229,53 +226,34 @@
   padding: 90px 0;
   background-color: #1f1f1f;
 }
-.kaufman__section-title_theme_dark {
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  max-width: 60%;
-  text-align: center;
+.section-title_theme_dark {
   color: white;
   margin: 0;
   z-index: 20;
 }
-.kaufman__section-subtitle_theme_dark {
+.section-subtitle_theme_dark{
   color: white;
   margin: 20px auto 80px;
-  line-height: 34px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: normal;
   max-width: 60%;
   text-align: center;
+  z-index: 40;
 }
-.kaufman__table_theme_dark {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
+.table_theme_dark {
+  gap: 80px 0;
   z-index: 20;
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 /* including elements with key-value modifiers */
-.kaufman__table__cell_theme_dark {
-  max-width: 200px;
-  margin-right: 0;
-  margin-top: 80px;
+.table__heading_theme_dark {
+  width: 200px;
   color: white;
 }
 
-.kaufman__table__heading_theme_dark {
-  margin:0 0 20px 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
+.table__heading_theme_dark {
+  margin: 0 0 20px 0;
 }
-.kaufman__table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+.table__text_theme_dark {
   margin: 0;
 }
 .kaufman__triangle {
@@ -290,8 +268,9 @@
 .footer {
   display: flex;
   padding: 60px 0 40px;
-
+  min-height: 350px;
   background-color: #1f1f1f;
+  box-sizing: border-box
 }
 .footer__columns {
   display: flex;
@@ -299,9 +278,9 @@
   width: 90%;
   margin: 0 auto;
   color: white;
-  min-height: 350px;
+
 }
-.footer__column-content_copyright {
+.footer__column_content_copyright{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -326,7 +305,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin:0 0 20px 0;
   font-weight: bold;
   line-height: 30px;
   font-size: 18px;
@@ -342,5 +321,3 @@
   width: 16px;
   height: 16px;
 }
-
-
