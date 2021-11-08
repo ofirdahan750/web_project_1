@@ -277,7 +277,10 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
+}
+.footer__column {
   color: white;
+
 }
 .footer__column_content_copyright {
   display: flex;
@@ -312,9 +315,8 @@
 
 .footer__column-link {
   font-weight: normal;
-
-  color: white;
   text-decoration: none;
+  color: white;
 }
 .footer__social-icons {
   width: 16px;
