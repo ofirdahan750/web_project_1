@@ -15,7 +15,7 @@ None.
 
 ### Installing
 
-No additional installation is required beyond taking or using Npm.
+No additional installation is required beyond taking or using NPM.
 ### Executing program
 
 Live-server is recommended
