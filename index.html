@@ -18,7 +18,7 @@
         <p class="header__subtitle">
           The most effective, cutting-edge learning techniques that you can
           apply to your daily life.
-          <a class="header__link" href="#">Learn more</a>
+          <a class="header__link transition-link" href="#">Learn more</a>
         </p>
         <img
           src="./images/header-image.png"
@@ -131,24 +131,22 @@
         <section class="video">
           <h2 class="section-title">TED talks</h2>
           <p class="section-subtitle">For lovers of procrastination</p>
-          <div class="video__iframes">
-            <iframe
-              class="video__iframe"
-              width="515"
-              height="316"
-              src="https://www.youtube.com/embed/5MgBikgcWnY"
-              allowfullscreen
-              ></iframe
-            >
-            <iframe
-              class="video__iframe"
-              width="515"
-              height="315"
-              src="https://www.youtube.com/embed/arj7oStGLkU"
-              allowfullscreen
-              ></iframe
-            >
-          </div>
+          <ul class="video__iframes">
+            <li>
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/5MgBikgcWnY"
+                allowfullscreen
+              ></iframe>
+            </li>
+            <li>
+              <iframe
+                class="video__iframe"
+                src="https://www.youtube.com/embed/arj7oStGLkU"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
         </section>
 
         <section class="oakley">
@@ -175,7 +173,7 @@
         <section class="feynman">
           <h2 class="feynman__title">The Feynman Technique</h2>
           <p class="feynman__subtitle">Learn without forgetting</p>
-          <a href="#" class="feynman__link">More </a>
+          <a href="#" class="feynman__link transition-link">More </a>
           <img
             src="./images/feynman.png"
             alt="A picture of Richard
@@ -263,7 +261,7 @@
                 alt="Picture of a book named “the one world schoolhouse” by salman khan"
                 class="khan__book-pic"
               />
-              <a href="#" class="khan__buy-link">Buy book</a>
+              <a href="#" class="khan__buy-link transition-link">Buy book</a>
             </div>
           </div>
         </section>
@@ -348,36 +346,44 @@
           <p class="section-subtitle">
             Further materials on learning techniques and hacks.
           </p>
-          <div class="resources__logo-zone">
-            <a href="#">
-              <img
-                class="resources__logo"
-                src="./images/logo/resources-tedED.png"
-                alt="Ted company logo picture"
-              />
-            </a>
-            <a href="#">
-              <img
-                class="resources__logo"
-                src="./images/logo/resources-Medium.png"
-                alt="Medium company logo picture"
-              />
-            </a>
-            <a href="#">
-              <img
-                class="resources__logo"
-                src="./images/logo/resources-dezeen.png"
-                alt="Dezeen company logo picture"
-              />
-            </a>
-            <a href="#">
-              <img
-                class="resources__logo"
-                src="./images/logo/resources-goodreads.png"
-                alt="Good Reads company logo picture"
-              />
-            </a>
-          </div>
+          <ul class="resources__logo-zone">
+            <li>
+              <a href="#" class="transition-link">
+                <img
+                  class="resources__logo transition-link"
+                  src="./images/logo/resources-tedED.png"
+                  alt="Ted company logo picture"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition-link">
+                <img
+                  class="resources__logo transition-link"
+                  src="./images/logo/resources-Medium.png"
+                  alt="Medium company logo picture"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition-link">
+                <img
+                  class="resources__logo transition-link"
+                  src="./images/logo/resources-dezeen.png"
+                  alt="Dezeen company logo picture"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition-link">
+                <img
+                  class="resources__logo transition-link"
+                  src="./images/logo/resources-goodreads.png"
+                  alt="Good Reads company logo picture"
+                />
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">
@@ -396,13 +402,19 @@
             <nav>
               <ul class="footer__list">
                 <li>
-                  <a class="footer__column-link" href="#">Home page</a>
+                  <a class="footer__column-link transition-link" href="#"
+                    >Home page</a
+                  >
                 </li>
                 <li>
-                  <a class="footer__column-link" href="#">Mission</a>
+                  <a class="footer__column-link transition-link" href="#"
+                    >Mission</a
+                  >
                 </li>
                 <li>
-                  <a class="footer__column-link" href="#">Professions</a>
+                  <a class="footer__column-link transition-link" href="#"
+                    >Professions</a
+                  >
                 </li>
               </ul>
             </nav>

@@ -1,0 +1,26 @@
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.transition-link {
+  opacity: 1;
+}
+.transition-link:hover {
+  animation: fade-out 0.2s linear forwards;
+}
+.transition-link:not(:hover) {
+  animation: fade-in 0.2s linear forwards;
+}
